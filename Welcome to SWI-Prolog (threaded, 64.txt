@@ -1,0 +1,36 @@
+Welcome to SWI-Prolog (threaded, 64 bits, version 10.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+7 ?- consult(['c:/Users/shaha/OneDrive/سطح المكتب/AIlab3.pl']).
+true.
+
+8 ?-  father(saleh, abdalaziz).
+true.
+
+9 ?- sister(shahed, abdalaziz).
+true .
+
+10 ?- father(abdalaziz, sara).
+true.
+
+11 ?- brother(abdalaziz, shahed).
+true .
+
+12 ?- mother(zozo, shahed).
+true.
+
+13 ?- mother(shahed, khalid).
+true.
+
+14 ?- sister(shahed, raghad).
+true .
+
+15 ?- sister(raghad, abdalaziz).
+true .
+
+16 ?- sister(sara, khalid).
+false.
